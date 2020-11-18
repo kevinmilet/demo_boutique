@@ -1,0 +1,49 @@
+[{
+    "name": "Product 1",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "21.99",
+    "hero": "OMG This just came out today!",
+    "image": "https://picsum.photos/600/450"
+}, {
+    "name": "Product 2",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "35.75",
+    "info": "This is the latest and greatest product from Derp corp.",
+    "image": "https://picsum.photos/600/450"
+}, {
+    "name": "Product 3",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "45.50",
+    "offer": "BOGOF",
+    "image": "https://picsum.photos/600/450"
+}, {
+    "name": "Product 4",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "18.30",
+    "image": "https://picsum.photos/600/450"
+}, {
+    "name": "Product 5",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "62.99",
+    "offer": "No srsly GTFO",
+    "image": "https://picsum.photos/600/450"
+}, {
+    "name": "Product 6",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "75.90",
+    "image": "https://picsum.photos/600/450"
+}, {
+    "name": "Product 7",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "27.00",
+    "info": "This is the latest and greatest product from Derp corp.",
+    "offer": "info with offer",
+    "image": "https://picsum.photos/600/450"
+}, {
+    "name": "Product 8",
+    "detail": "Lorem ipsum dolor sit amet",
+    "price": "32.80",
+    "offer": "No srsly GTFO",
+    "image": "https://picsum.photos/600/450"
+}
+]
