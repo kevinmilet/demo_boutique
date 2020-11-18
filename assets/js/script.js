@@ -82,6 +82,7 @@ btnTotal.onclick = function () {
         total += parseFloat(element.price);
     });
 
+    document.querySelector('.modal-title').innerHTML = 'Total';
     document.querySelector('#modalContent').innerHTML = `Le total des produits est de: ${total} €`;
 };
 
@@ -94,6 +95,7 @@ btnAverage.onclick = function () {
         average += parseFloat(element.price) / products.length;
     });
 
+    document.querySelector('.modal-title').innerHTML = 'Moyenne';
     document.querySelector('#modalContent').innerHTML = `La moyenne du prix des produits est de: ${average.toFixed(2)} €`;
 
 };
@@ -112,6 +114,7 @@ btnMoreExpensive.onclick = function () {
 
     let product = products[position].name;
 
+    document.querySelector('.modal-title').innerHTML = 'Produit le plus cher';
     document.querySelector('#modalContent').innerHTML = `Le prix le plus élevé est celui du produit ${product} au prix de ${moreExpensivePrice} €`;
 };
 
@@ -129,5 +132,6 @@ btnLessExpensive.onclick = function () {
 
     let product = products[position].name;
 
+    document.querySelector('.modal-title').innerHTML = 'Produit le moins cher';
     document.querySelector('#modalContent').innerHTML = `Le prix le moins élevé est celui du produit ${product} au prix de ${lessExpensivePrice} €`;
 };
