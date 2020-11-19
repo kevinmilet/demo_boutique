@@ -17,17 +17,13 @@ let nameArray = [];
 // initialisation de la variable qui incrémentera les ids
 let newId = 0;
 
+
 // initialisation des boutons
 const btnTotal = document.querySelector('#btnTotal');
 const btnAverage = document.querySelector('#btnAverage');
 const btnMoreExpensive = document.querySelector('#btnMoreExpensive');
 const btnLessExpensive = document.querySelector('#btnLessExpensive');
 
-// initialisation des modales
-// document.addEventListener('DOMContentLoaded', function() {
-//     var elems = document.querySelectorAll('.modal');
-//     var instances = M.Modal.init(elems, options);
-//   });
 
 // on récupère le fichier json
 fetch(productCatalog)
